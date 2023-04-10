@@ -1,0 +1,45 @@
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 5px;
+    width: 100vw;
+    font-size: 35px;
+    line-height: 35px;
+
+    .active-icon {
+        color: rgb(234 179 8);
+    }
+
+    .active-indicator {
+        display: flex;
+        border-radius: 35px;
+        background-color: rgb(234 179 8);
+    }
+
+    .icons-container {
+
+        display: flex;
+        align-items: center;
+
+        
+        .icons {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            color: inherit;
+            text-decoration: inherit;
+
+            .indicator {
+
+                height: 10px;
+                width: 10px;
+
+                
+            }
+        }
+    }
+}

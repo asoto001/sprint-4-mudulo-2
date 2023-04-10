@@ -1,0 +1,25 @@
+.search-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .input-container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background-color: rgb(243 244 246);
+
+        .div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .input {
+            background-color: transparent;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.Ftype-container{
+    margin: 0;
+    overflow-x: hidden ;
+}
+.slider-2{
+    width: 190%;
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.btn-active{
+    background-color: rgb(253 224 71) !important;
+}
+
+.item-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    height: 3rem;
+    width: 200px;
+    border-radius: 5px;
+    text-transform: none;
+    background-color: rgb(229 231 235);
+
+    padding: 10px;
+    h3{
+        width: 120px;
+    }
+}

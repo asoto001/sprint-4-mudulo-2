@@ -1,0 +1,50 @@
+.container-sec {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+
+    .ubication-btn {
+
+        display: flex;
+
+        .ubication-icon {
+            font-size: 30px;
+            line-height: 35px;
+            color: rgb(253 224 71);
+        }
+
+        & h3 {
+            font-size: 10px;
+            line-height: 15px;
+            color: rgb(253 224 71);
+        }
+
+        & h4 {
+            font-size: 10px;
+            line-height: 15px;
+        }
+    }
+
+    .restaurants {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+
+        .restaurants-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    }
+
+    .reload {
+        width: 50px;
+        height: 50px;
+        color: rgb(0 0 0);
+    }
+}
